@@ -35,12 +35,15 @@ YouTube: [https://www.youtube.com/watch?v=ZBCUegTZF7M](https://www.youtube.com/w
 
    ```js
    module.exports = function (api) {
-   	api.cache(true);
-   	return {
-   		presets: ["babel-preset-expo"],
-   	};
+   		api.cache(true);
+   		return {
+   			presets: ["babel-preset-expo"],
+   		};
    };
    ```
 
 7. Clear bundle cache: After updating the Babel config file, run the following command to clear the bundler cache: `npx expo start --clear`
-# React-Native-Tutorial
+
+8. Install tailwind with native wind: `npm install nativewind tailwindcss react-native-reanimated react-native-safe-area-context`
+
+
