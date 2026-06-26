@@ -1,0 +1,10 @@
+node_modules
+.expo
+android
+ios
+dist
+build
+_archive
+package-lock.json
+assets
+*.min.js
